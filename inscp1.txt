@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> <strong> Accueil</strong></title>
+       
+    </head>
+    
+    <body>
+        <header>
+           <nav>
+            <a href="accueil.html">Home</a>
+            <a href="Projet et tache.html">Projet et Taches</a>
+            <a href="Liste Employe.html">Liste Employe</a>
+            <a href="Inscription.html">Inscription</a>
+           </nav>
+           <hr/>
+        </header>
+        <section align="center">
+            <img src="Images/img1.jpg" height="100%" width="50%" alt="Banner">
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Nom: </label>
+                        </td>
+
+                        <td>
+                            <input type="text" name="nom">
+                        </td>
+                    </tr>
+                    <td>
+                        <label>Prenom: </label>
+                    </td>
+
+                    <td>
+                        <input type="text" name="nom">
+                    </td>
+                    <tr>
+                    
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <label>Email: </label>
+                        </td>
+    
+                        <td>
+                            <input type="email" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>telephone: </label>
+                        </td>
+    
+                        <td>
+                            <input type="text" name="telephone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Date de Naissance: </label>
+                        </td>
+    
+                        <td>
+                            <input type="date" name="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Mot de Passe: </label>
+                        </td>
+    
+                        <td>
+                            <input type="text" name="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <input type="button" value="s'inscrire">
+                        </td>
+                    </tr>
+              
+                
+
+                </table>
+            </form>
+           
+
+        </section>
+        <footer>
+            <hr/>
+            <p>Vous pouvez nous contacter <a href="mailto:Nour.zouaghi@esprit.tn">contact@gmail.com</a></p>
+            <p>Adresse : Ghazela, Tunis</p>
+        </footer>
+
+    </body>
