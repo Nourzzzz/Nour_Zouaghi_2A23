@@ -17,7 +17,7 @@
         </header>
         <section align="center">
             <img src="Images/img1.jpg" height="100%" width="50%" alt="Banner">
-            <form>
+            <form  id="form">
                 <table>
                     <tr>
                         <td>
@@ -26,10 +26,11 @@
 
                         <td>
                          
-                            <input type="text" id="nom" name="nom" required pattern="[A-Za-z]+" minlength="2">
-                            <span class="error-message" id="nom-error"></span>
+                            <input type="text" id="nom" name="nom">
+                       
                     
                         </td>
+                        <td><span id="NameError"></span></td>
                     </tr>
                     <td>
                         <label>Prenom: </label>
@@ -37,9 +38,10 @@
 
                     <td>
                         
-                        <input type="text" id="prenom" name="prenom" required pattern="[A-Za-z]+" minlength="2">
-                        <span class="error-message" id="prenom-error"></span>
+                        <input type="text" id="prenom" name="prenom" >
+                     
                     </td>
+                    <td><span id="PrenomError"></span></td>
                     <tr>
                     
                     </tr>
@@ -50,9 +52,10 @@
                         </td>
     
                         <td>
-                            <input type="email" id="email" name="email" required>
-                            <span class="error-message" id="email-error"></span>
+                            <input type="email" id="email" name="email" >
+                         
                         </td>
+                        <td><span id="EmailError"></span></td>
                     </tr>
                     <tr>
                         <td>
@@ -60,9 +63,10 @@
                         </td>
     
                         <td>
-                            <input type="tel" id="telephone" name="telephone" required pattern="[0-9]{8}" minlength="8" maxlength="8">
-                            <span class="error-message" id="telephone-error"></span>
+                            <input type="tel" id="telephone" name="telephone" >
+                           
                         </td>
+                        <td><span id="TelError"></span></td>
                     </tr>
                     <tr>
                         <td>
@@ -70,9 +74,11 @@
                         </td>
     
                         <td>
-                            <input type="date" id="dateNaissance" name="dateNaissance" required>
-                            <span class="error-message" id="dateNaissance-error"></span>
+                            <input type="date" id="dateNaissance" name="dateNaissance">
+                            
+                           
                         </td>
+                        <td><span id="DateError"></span></td>
                     </tr>
                     <tr>
                         <td>
@@ -80,14 +86,16 @@
                         </td>
     
                         <td>
-                            <input type="password" id="motDePasse" name="motDePasse" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$">
-                            <span class="error-message" id="motDePasse-error"></span>
+                            <input type="password" id="motDePasse" name="motDePasse" >
+                        
                         </td>
+                        <td><span id="PSWError"></span></td>
                     </tr>
                     <tr>
                         <td>
                            <input type="submit" value="s'inscrire">
                         </td>
+                        <td><span id="SubmitError"></span></td>
                     </tr>
               
                 
@@ -102,5 +110,6 @@
             <p>Vous pouvez nous contacter <a href="mailto:Nour.zouaghi@esprit.tn">contact@gmail.com</a></p>
             <p>Adresse : Ghazela, Tunis</p>
         </footer>
+        <script src="inscription.js"></script>
 
     </body>
